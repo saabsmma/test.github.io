@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    font-size: 60px;
+}
+
+.mail-image {
+    width: 300px;
+}
+
+.contact-us-explanation {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    width: 60%;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.inputs {
+    width: 500px;
+    height: 50px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    outline: none;
+}
+
+.long-inputs, .short-inputs {
+    padding: 20px;
+}
+
+.long-inputs {
+    min-height: 300px;
+}
+
+.buttons {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    margin: 30px;
+    transition: .5s;
+    cursor: pointer;
+}
+.buttons:hover {
+    background-color: rgb(94, 94, 94);
+}
+
+@media screen and (max-width: 700px) {
+    .inputs {
+        width: 100%;
+    }
+    .title {
+        font-size: 40px;
+    }
+    .mail-image {
+        width: 150px;
+    }
+    .contact-us-explanation {
+        font-size: 20px;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1300px) {}

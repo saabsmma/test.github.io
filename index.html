@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css">
     <link href="./fonts.css" rel="stylesheet" />
     <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
     <title>SAAB | Social Media Marketing agency</title>
@@ -12,24 +12,25 @@
 
 <body>
     <nav>
-        <a href="./index.html" class="nav-logo-holder"><img src="./images/logo 2.svg" alt="logo" class="logo" /></a>
+        <a href="./index.html"><img src="./images/logo.svg" alt="logo" class="logo" /></a>
         <div class="menu">
             <img src="./images/three-dots-vertical.svg" class="menu-img">
         </div>
         <div class="links-holder">
-            <a href="./" class="links">Home</a>
             <a class="about-us-link links">About</a>
             <a class="wnsma-link links">Why Need Social Media Agencies?</a>
-            <a href="./services" class="links">Services</a>
         </div>
-        <div class="contact-us-nav-container">
-            Contact Us
+        <div class="links-holder2">
+            <a href="./" class="links">Home</a>
+            <a href="./contactus" class="links">Contact Us</a>
+            <a href="./services" class="links">Services</a>
         </div>
     </nav>
     <div class="phone-links-holder">
         <a href="./" class="phone-links">Home</a>
         <a class="about-us-link phone-links">About</a>
         <a class="wnsma-link phone-links">Why Need Social Media Agencies?</a>
+        <a href="./contactus" class="phone-links">Contact Us</a>
         <a href="./services" class="phone-links">Services</a>
     </div>
 
@@ -39,7 +40,7 @@
             <p>This is&nbsp;<span>SAAB</span>&nbsp;'s Social Media Marketing Agency</p>
             <p>The place where Clients and Customers connect!</p>
         </div>
-        <img src="./images/logo-colored.svg">
+        <img src="./images/logo.svg">
     </div>
 
     <hr class="first-line">
@@ -47,22 +48,22 @@
     <div class="page-2">
         <h1>About Us</h1>
         <div class="about-us-content-holder">
-            <div>
+            <div class="each-about-us-content-holder">
                 <img src="./images/pwr.png" alt="">
                 <p>We build powerful digital presence for our clients, which in turn makes them interact with more
                     customers.</p>
             </div>
-            <div>
+            <div class="each-about-us-content-holder">
                 <img src="./images/idea.png" alt="">
                 <p>We innovate ideas, content, campaigns, strategies, and we do it all with extreme passion and care.
                 </p>
             </div>
-            <div>
+            <div class="each-about-us-content-holder">
                 <img src="./images/team.png" alt="">
                 <p>We are a team of professionals specialized in the design and development of solutions for digital
                     environments, web and social networks.</p>
             </div>
-            <div>
+            <div class="each-about-us-content-holder">
                 <img src="./images/mission.png" alt="">
                 <p>Our mission is to help you succeed, with seriousness, responsibility and professionalism.</p>
             </div>
@@ -106,7 +107,7 @@
         </div>
         <div class="vl"></div>
         <div class="contact-us-container">
-            <p>Contact Us</p>
+            <h1>Contact Us</h1>
             <div>
                 <a href="#"><img src="./images/facebook.png" alt=""></a>
                 <a href="#"><img src="./images/tik-tok.png" alt=""></a>
@@ -118,4 +119,8 @@
 </body>
 
 </html>
-<script src="./app.js"></script>
+<script src="./gsap.min.js"></script>
+<script src="./ScrollTrigger.min.js"></script>
+<script src="./TimelineMax.min.js"></script>
+<script src="./home.js"></script>
+<script src="./main.js"></script>
