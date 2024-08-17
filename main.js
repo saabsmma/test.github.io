@@ -26,13 +26,60 @@ phoneLinks.forEach((eachLink)=> {
 gsap.registerPlugin(ScrollTrigger);
 
 gsap.to("nav", {
-    duration: .3,
+    duration: .5,
     backgroundColor: "#f7f7f7",
     scrollTrigger: {
         trigger: "body",
         start: 30,
         end: 30,
-        markers: true,
         toggleActions: "play none reverse none"
     },
 });
+
+// gsap.to(".links-holder", {
+//     duration: .3,
+//     boxShadow: "none",
+//     backgroundColor: "#f7f7f7",
+//     scrollTrigger: {
+//         trigger: "body",
+//         start: 30,
+//         end: 30,
+//         toggleActions: "play none reverse none"
+//     },
+// });
+
+// gsap.to(".links-holder2", {
+//     duration: .3,
+//     boxShadow: "none",
+//     backgroundColor: "#f7f7f7",
+//     color: "white",
+//     scrollTrigger: {
+//         trigger: "body",
+//         start: 30,
+//         end: 30,
+//         toggleActions: "play none reverse none"
+//     },
+// });
+
+// gsap.to("a:has(.logo)", {
+//     duration: .3,
+//     boxShadow: "none",
+//     backgroundColor: "#f7f7f7",
+//     scrollTrigger: {
+//         trigger: "body",
+//         start: 30,
+//         end: 30,
+//         toggleActions: "play none reverse none"
+//     },
+// });
+
+// gsap.to(".links", {
+//     duration: .3,
+//     color: "#f7f7f7",
+//     scrollTrigger: {
+//         trigger: "body",
+//         start: 30,
+//         end: 30,
+//         toggleActions: "play none reverse none"
+//     },
+// });
