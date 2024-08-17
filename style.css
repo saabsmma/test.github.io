@@ -108,6 +108,9 @@ nav {
     width: 20px;
     filter: invert(100%);
 }
+.menu:active {
+    background-color: #a3a3a3;
+}
 .phone-links-holder {
     position: fixed;
     width: 100vw;
